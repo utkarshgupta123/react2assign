@@ -1,0 +1,96 @@
+/* .App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body{
+  background-image: linear-gradient(to right, lightblue,pink,gray,pink,lightblue);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.header{
+  color: darkred;
+  font-size: 39px;
+}
+
+.inputfield{
+  height: 30px;
+  width: 200px;
+  border: 1px solid darkred;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inputfield:active{
+  border: 1px solid blue;
+}
+
+.label{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn{
+  height: 40px;
+  width: 120px;
+  background-color: darkred;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+
+.box{
+  height: 120px;
+  width: 480px;
+  padding-left: 20px;
+  background-color: tomato;
+  color: black;
+  font-weight: 700;
+  border: black 2px solid;
+  border-radius: 10px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  position: relative;
+  top: 100px;
+  left: calc((100vw - 1060px)/2);
+  padding: 10px;
+  text-align: start;
+}
